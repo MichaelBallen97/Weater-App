@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0B2545;
+  color: #EEF4ED;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: #13315C;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 30px;
+}

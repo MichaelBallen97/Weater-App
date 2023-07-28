@@ -1,0 +1,53 @@
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.app-container {
+  margin-top: 20px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8DA9C4;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.location h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.location h2 span {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.app-data {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-data > span {
+  width: calc(50% - 5px);
+  background: #8DA9C4;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.final-message {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
